@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MiniProjectManager.Backend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fb4a47d2e2f66b5fe02558966e2601b21eecde4b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+287f03be6f2aa07b57eb1e74753f7fe3c3a72c3e")]
 [assembly: System.Reflection.AssemblyProductAttribute("MiniProjectManager.Backend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MiniProjectManager.Backend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

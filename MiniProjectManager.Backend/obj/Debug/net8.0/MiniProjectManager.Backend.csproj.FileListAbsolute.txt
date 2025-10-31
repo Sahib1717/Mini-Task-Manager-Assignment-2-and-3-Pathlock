@@ -173,3 +173,6 @@ C:\Users\Namdev Computers\Desktop\MiniProjectManager\MiniProjectManager.Backend\
 C:\Users\Namdev Computers\Desktop\MiniProjectManager\MiniProjectManager.Backend\obj\Debug\net8.0\MiniProjectManager.Backend.pdb
 C:\Users\Namdev Computers\Desktop\MiniProjectManager\MiniProjectManager.Backend\obj\Debug\net8.0\MiniProjectManager.Backend.genruntimeconfig.cache
 C:\Users\Namdev Computers\Desktop\MiniProjectManager\MiniProjectManager.Backend\obj\Debug\net8.0\ref\MiniProjectManager.Backend.dll
+C:\Users\Namdev Computers\Desktop\MiniProjectManager\MiniProjectManager.Backend\bin\Debug\net8.0\Npgsql.dll
+C:\Users\Namdev Computers\Desktop\MiniProjectManager\MiniProjectManager.Backend\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\Namdev Computers\Desktop\MiniProjectManager\MiniProjectManager.Backend\obj\Debug\net8.0\MiniProjectManager.Backend.sourcelink.json
