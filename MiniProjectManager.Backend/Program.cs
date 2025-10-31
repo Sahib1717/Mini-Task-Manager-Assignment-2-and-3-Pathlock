@@ -39,11 +39,11 @@ builder.Services.AddScoped<IAuthService, AuthService>();
 // Add CORS
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowReactApp", policy =>
+    options.AddPolicy("AllowAll", policy =>
     {
         policy
               //.WithOrigins("http://localhost:3000")
-              .WithOrigins("http://mini-task-manager-assignment-2-and.vercel.app")
+              .WithOrigins()
               .AllowAnyHeader()
               .AllowAnyMethod();
     });
@@ -58,7 +58,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseCors("AllowReactApp");
+app.UseCors("AllowAll");
 app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
