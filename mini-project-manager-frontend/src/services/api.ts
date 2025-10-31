@@ -1,7 +1,8 @@
 import axios from 'axios';
 import { CreateProjectData, CreateTaskData, UpdateTaskData, Project, Task } from '../types';
 
-const API_BASE_URL = 'http://localhost:5141/api';
+//const API_BASE_URL = 'http://localhost:5141/api';
+const API_BASE_URL = 'https://mini-task-manager-assignment-2-and-3-l3hn.onrender.com/api';
 
 const api = axios.create({
   baseURL: API_BASE_URL,
