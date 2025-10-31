@@ -62,7 +62,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowFrontend", policy =>
     {
         // Add the production frontendURL to the list of allowed origins
-        policy.WithOrigins("http://localhost:3000", "http://localhost:5173", frontendURL)
+        policy.WithOrigins("http://localhost:3000", "http://localhost:5173", "https://mini-task-manager-assignment-2-and.vercel.app")
               .AllowAnyHeader()
               .AllowAnyMethod();
     });
